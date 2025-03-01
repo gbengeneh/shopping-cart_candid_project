@@ -63,6 +63,7 @@ The backend runs at **`http://localhost:5000`**.
     { "id": 1, "name": "Laptop", "price": 999.99, "image": "/images/laptop.png" },
     { "id": 2, "name": "Headphones", "price": 149.99, "image": "/images/headphones.png" }
   ]
+  ```
   #### **1️⃣ upload a product with image**
 - **Endpoint:** `POST http://localhost:5000/products`
 - **Post with postman because of the form multipart form header option**
